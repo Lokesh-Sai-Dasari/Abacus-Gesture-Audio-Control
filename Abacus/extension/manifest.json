@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Abacus Tweaks",
+  "version": "1.0.0",
+  "description": "Applies the look-and-feel changes you ask Abacus for (hide Shorts, light mode, no infinite scroll...) to websites, every time you open them.",
+  "permissions": ["storage", "tabs", "userScripts"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Abacus Tweaks", "default_popup": "popup.html" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

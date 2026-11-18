@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+*.log
+*.bak*
+models/
+# per-user state written at run time
+GestureControl/calibration*.json
+GestureControl/profiles.json
+Abacus/mcp.json
+Abacus/persona.rendered.md
+Abacus/state.json
+Abacus/tweaks.json
+Abacus/vocab.json
+Abacus/snippets.json
+Abacus/voice_cache/
+Abacus/.screen_scale

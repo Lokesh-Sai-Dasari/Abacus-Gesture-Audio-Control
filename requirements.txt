@@ -1,0 +1,24 @@
+# Gesture Control
+mediapipe==1.1.1
+opencv-python==5.0.0.93
+numpy>=2.4
+pygrabber==0.2
+sounddevice==0.5.6
+comtypes>=1.4.17
+winrt-runtime==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Media.Control==3.2.1
+# Abacus
+vosk==0.3.45
+faster-whisper==1.2.1
+av==19.0.1
+edge-tts==7.3.1
+mcp==2.3.0
+PyAutoGUI==0.9.54
+uiautomation==2.0.29
+pywin32==312
+pillow==12.3.0
+psutil==7.2.2
+requests==2.32.3
+websocket-client==1.9.2
