@@ -96,3 +96,7 @@ Tuning constants are at the top of `gesture_control.py` and in `Abacus/config.py
 - Abacus runs on your own Claude Code login, and edge-tts is an unofficial client for
   Microsoft's voices.
 - Built with Claude Code as a coding assistant.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
